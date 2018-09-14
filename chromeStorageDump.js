@@ -1,7 +1,7 @@
 var levelup = require('levelup')
 var leveldown = require('leveldown')
 
-if(process.argv.length < 3) {
+if (process.argv.length < 3) {
   console.log("Usage: node chromeStorageDump.js [Options] /path/to/database");
   console.log("Options:");
   console.log("\t -k <key>: Provides a key to search for\n");
