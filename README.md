@@ -15,3 +15,9 @@ Run `npm install levelup leveldown` to install the dependencies.
 
 ## Usage
 `node chromeStorageDump.js [Options] /path/to/database`
+
+### On Windows:
+`node chromeStorageDump.js -k token "C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\Local Storage\leveldb"`
+
+### On OSX:
+`node chromeStorageDump.js -k token "/Users/<username>/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb"`
